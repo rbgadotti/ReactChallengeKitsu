@@ -1,0 +1,59 @@
+.PageDetail {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.PageDetail .character-profile-image {
+  margin: 20px 0 0;
+}
+
+.PageDetail .character-data {
+  padding: 0 20px 20px;
+}
+
+.PageDetail .character-gallery {
+  margin-top: 20px;
+  max-width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.PageDetail .character-gallery .media {
+  max-width: 100%;
+  height: auto;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.PageDetail .character-gallery .media-title {
+  font-size: 13px;
+  font-style: italic;
+  text-align: center;
+  color: #333333;
+  margin-top: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+  .PageDetail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .PageDetail .character-name {
+    text-align: center;
+  }
+
+  .PageDetail .character-data {
+    text-align: justify;
+  }
+
+  .PageDetail .character-gallery {
+    justify-content: center;
+  }
+  
+}

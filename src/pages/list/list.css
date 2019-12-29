@@ -1,0 +1,17 @@
+.PageList .SearchBar {
+  margin-top: 34px;
+}
+
+.PageList .Table {
+  margin-top: 34px;
+}
+
+@media only screen and (max-width: 768px) {
+  .PageList .SearchBar {
+    margin-top: 12px;
+  }
+  
+  .PageList .Table {
+    margin-top: 12px;
+  }
+}
